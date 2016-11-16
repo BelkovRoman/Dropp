@@ -10,7 +10,12 @@
 /*Подключаем компоненты верстки*/
 @import "components/preloader.less";
 @import "components/hamburger.less";
-@import "components/top-panel.less";
+@import "components/skills.less";
+@import "components/social.less";
+
+/*Подключаем каркас верстки*/
+@import "layout/header.less";
+@import "layout/grid.less";
 
 /*Подключаем секции*/
 @import "sections/about.less";
@@ -18,7 +23,7 @@
 @import "sections/contacts.less";
 @import "sections/portfolio.less";
 @import "sections/services.less";
-@import "sections/header.less";
+@import "sections/home.less";
 
 /*Подключаем вспомогательный элемент, убирающий последствия от "float"*/
 @import "helpers/clearfix.less";
@@ -52,42 +57,29 @@ img{
     height: auto;
 }
 
-.main-container{
-	margin: 0px auto;
-	padding-left: 5px;
-	padding-right: 5px;
+.title_huge{
+	font-size: 3.2rem;
 }
 
-.title_border-top{
-	border-top: 1px solid #828282;
-	border-bottom: none;
+.title_larger{
+	font-size: 3rem;
+}
+
+.title_large{
+	font-size: 2.5rem;
+}
+
+.title_medium{
+	font-size: 2.2rem;
 }
 
 .article{
 	line-height: 1.4;
 }
 
-.page{
-	overflow: hidden;
-}
-
-.section__title{
-	text-align: center;
-	border-bottom: 1px solid #828282;
-	padding: 35px 0px;
-	font-size: 3.2rem;
-	font-family: 'Oswald-Bold';
-	color: @main-color;
-}
-
 @media screen and (min-width: @min-width-big){
 	html{
 		font-size: 10px;
-	}
-	
-	.main-container{
-		min-width: 641px;
-		max-width: 1170px;
 	}
 }
 
@@ -95,29 +87,11 @@ img{
 	html{
 		font-size: 8px;
 	}
-	
-	.main-container{
-		max-width: 640px;
-	}
-	
-	.section__title{
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
 }
 
 @media screen and (max-width: @max-width-lesser){
 	html{
 		font-size: 7px;
-	}
-	
-	.main-container{
-		max-width: 360px;
-	}
-	
-	.section__title{
-		padding-top: 15px;
-		padding-bottom: 15px;
 	}
 }
 

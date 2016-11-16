@@ -1,23 +1,23 @@
 /*top-panel*/
 
-.top-panel{
+.header{
 	background-color: #fff;
 }
 
-.top-panel__inner{
+.header__inner{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.page-name{
+.logo{
 	display: inline-block;
 	font-family: 'BebasNeue Book';
 	font-size: 7rem;
 }
 
-.page-name_red{
+.logo__label{
 	color: @main-color;
 }
 
@@ -46,14 +46,14 @@
 }
 
 @media screen and (max-width: @max-width-normal) and (min-width: @min-width-normal){
-	.top-panel{
+	.header{
 		position: fixed;
 		width: 100%;
 		z-index: 50;
 		border-bottom: 2px solid #000;
 	}
 	
-	.top-panel__inner{
+	.header__inner{
 		padding: 0.6rem 0;
 	}
 	
@@ -61,7 +61,7 @@
 		display: none;
 	}
 	
-	.page-name{
+	.logo{
 		font-size: 4.4rem;
 	}
 	
@@ -89,14 +89,14 @@
 }
 
 @media screen and (max-width: @max-width-lesser){
-	.top-panel{
+	.header{
 		position: fixed;
 		width: 100%;
 		z-index: 50;
 		border-bottom: 2px solid #000;
 	}
 	
-	.top-panel__inner{
+	.header__inner{
 		padding: 0.6rem 0;
 	}
 	
@@ -104,8 +104,8 @@
 		display: none;
 	}
 	
-	.page-name{
-		font-size: 4rem;
+	.logo{
+		font-size: 4.7rem;
 	}
 	
 	.menu__item{

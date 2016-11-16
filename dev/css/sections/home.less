@@ -1,6 +1,6 @@
 /*header*/
 
-.header{
+.home{
 	z-index: 5;
 	background-image: url(../img/banner.jpg);
     background-color: #5f5f5f;
@@ -12,7 +12,7 @@
 	box-shadow: 0 0 0 400px rgba(0, 0, 0, 0.33) inset;
 }
 
-.header__inner{
+.home__inner{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,7 +20,7 @@
 	z-index: 10;
 }
 
-.logo{
+.home__slogan{
 	text-align: center;
 	display: block;
 	margin-bottom: 60px;
@@ -29,7 +29,7 @@
 	color: #fff;
 }
 
-.logo__label{
+.home__label{
 	display: block;
 	text-align: center;
 	color: #fff;
@@ -47,34 +47,36 @@
 }
 	
 @media screen and (max-width: @max-width-normal) and (min-width: @min-width-normal){
-	.header{
+	.home{
+		background-image: url(../img/banner_small.jpg);
 		padding-top: 15rem;
 		padding-bottom: 10rem;
 	}
 	
-	.logo{
+	.home__slogan{
 		font-size: 6.5rem;
 		margin-bottom: 5rem;
 	}
 	
-	.logo__label{
+	.home__label{
 		padding: 1rem 2.5rem;
 		font-size: 2.5rem;
 	}
 }
 
 @media screen and (max-width: @max-width-lesser){	
-	.header{
+	.home{
+		background-image: url(../img/banner_smaller.jpg);
 		padding-top: 15rem;
 		padding-bottom: 10rem;
 	}
 	
-	.logo{
+	.home__slogan{
 		font-size: 5.5rem;
 		margin-bottom: 4rem;
 	}
 	
-	.logo__label{
+	.home__label{
 		padding: 1rem 2.5rem;
 		font-size: 2rem;
 	}

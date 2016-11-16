@@ -31,12 +31,12 @@
 		<h1 class="preloader__title">Wait a few seconds...</h1>
     </div>
 	<div class="page">
-		<div class="top-panel">
+		<header class="header">
 			<div class="main-container clearfix">
-				<div class="top-panel__inner">
-					<div class="page-name">
-						DR<span class="page-name_red">O</span>PP
-					</div>
+				<div class="header__inner">
+					<h1 class="title logo">
+						DR<span class="logo__label">O</span>PP
+					</h1>
 					<nav class="hamburger">
 						<input type="checkbox" class="hamburger__toggle" name="hamburger-01" id="toggle-01" hidden>
 						<label class="hamburger__trigger" for="toggle-01"></label>
@@ -87,21 +87,21 @@
 					</nav>
 				</div>
 			</div>
-		</div>
-		<header id="home" class="header">
+		</header>
+		<div id="home" class="home">
 			<div class="main-container clearfix">
-				<div class="header__inner">
-					<h1 class="logo">
+				<div class="home__inner">
+					<p class="home__slogan">
 						COME, STAY FOR A COFFIE!
-					</h1>
-					<a href="#0" class="logo__label">
+					</p>
+					<a href="#contacts" class="home__label">
 						HAVE A SEAT
 					</a>
 				</div>
 			</div>
-		</header>
-		<div id="services" class="section services">
-			<h2 class="section__title services__title">
+		</div>
+		<section id="services" class="section services">
+			<h2 class="title title_huge section__title">
 				SERVICES
 			</h2>
 			<div class="main-container clearfix">
@@ -110,7 +110,7 @@
 						<a href="#0" class="service__link">
 							<img class="img service__img" src="img/service1.png" alt="BRANDING image"/>
 						</a>
-						<h3 class="title service__title">BRANDING</h3>
+						<h3 class="title title_larger service__title">BRANDING</h3>
 						<article class="article service__article">
 							Lorem ipsum dolor sit amet, consectetur
 							adipisicing elit, sed do eiusmod tempor 
@@ -122,7 +122,7 @@
 						<a href="#0" class="service__link">
 							<img class="img service__img" src="img/service2.png" alt="WEB DESIGN image"/>
 						</a>
-						<h3 class="title service__title">WEB DESIGN</h3>
+						<h3 class="title title_larger service__title">WEB DESIGN</h3>
 						<article class="article service__article">
 							Lorem ipsum dolor sit amet, consectetur
 							adipisicing elit, sed do eiusmod tempor 
@@ -134,7 +134,7 @@
 						<a href="#0" class="service__link">
 							<img class="img service__img" src="img/service3.png"  alt="MARKETING image"/>
 						</a>
-						<h3 class="title service__title">MARKETING</h3>
+						<h3 class="title title_larger service__title">MARKETING</h3>
 						<article class="article service__article">
 							Lorem ipsum dolor sit amet, consectetur
 							adipisicing elit, sed do eiusmod tempor 
@@ -144,9 +144,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="portfolio" class="section portfolio">
-			<h2 class="section__title title_border-top">
+		</section>
+		<section id="portfolio" class="section portfolio">
+			<h2 class="title title_huge title_border-top section__title">
 				PORTFOLIO
 			</h2>
 			<div class="portfolio__inner clearfix">
@@ -187,9 +187,9 @@
 					<img class="img portfolio__img" src="img/port2.jpg"  alt="work number two"/>
 				</a>
 			</div>
-		</div>
-		<div id="about" class="section about">
-			<h2 class="section__title about__title">
+		</section>
+		<section id="about" class="section about">
+			<h2 class="title title_huge section__title about__title">
 				ABOUT US
 			</h2>
 			<div class="main-container">
@@ -212,7 +212,7 @@
 				<div class="main-container clearfix">
 					<div class="about__group">
 						<div class="about__column">
-							<h3 class="title about__title column__title">John Smith - Lead Graphic Artist</h3>
+							<h3 class="title title_medium column__title">John Smith - Lead Graphic Artist</h3>
 							<article class="article about__article">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
@@ -224,24 +224,24 @@
 							</article>
 							<div class="social">
 								<a href="#0" class="social__link">
-									<img class="img social__img" src="img/facebook-icon.png"  alt="facebook"/>
+									<i class="icon social__icon icon__facebook">facebook</i>
 								</a>
 								<a href="#0" class="social__link">
-									<img class="img social__img" src="img/google+-icon.png"  alt="google+"/>
+									<i class="icon social__icon icon__google">google+</i>
 								</a>
 								<a href="#0" class="social__link">
-									<img class="img social__img" src="img/vimeo-icon.png"  alt="vimeo"/>
+									<i class="icon social__icon icon__vimeo">vimeo</i>
 								</a>
 								<a href="#0" class="social__link">
-									<img class="img social__img" src="img/dribbble-icon.png"  alt="dribbble"/>
+									<i class="icon img social__icon icon__dribbble">dribbble</i>
 								</a>
 								<a href="#0" class="social__link">
-									<img class="img social__img" src="img/youtube-icon.png"  alt="youtube"/>
+									<i class="icon social__icon icon__youtube">youtube</i>
 								</a>
 							</div>
 						</div>
 						<div class="about__column">
-							<h3 class="title about__title column__title">Skills</h3>
+							<h3 class="title title_medium column__title">Skills</h3>
 							<div class="skills">
 								<div class="skills__item">
 									<span class="skills__name">PHOTOSHOP</span>
@@ -283,9 +283,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="blog" class="section blog">
-			<h2 class="section__title">
+		</section>
+		<section id="blog" class="section blog">
+			<h2 class="title title_huge section__title">
 				LATEST POSTS
 			</h2>
 			<div class="main-container clearfix">
@@ -296,15 +296,16 @@
 						</a>
 						<a href="#00">
 							<div class="post__column">
-								<h3 class="title post__title">
-									SUMMER ADVENTURES...
+								<h3 class="title title_large post__title">
+									SUMMER ADVENTURES
 									<p class="post__date">POSTED: DEC 14 2013</p>
 									<div class="post__underline"></div>
 								</h3>
 								<article class="article post__article">
-									The dance of life, the hunter and the agile prey.
-									No guarantee which of them will 
-									<span class="post__preview_hidden">succeed, strong or weak.</span>(...)
+									Being tracked by a starving beast
+									Looking for its daily feast
+									A predator on the verge of death
+									<span class="post__preview_hidden">Close to its last breath.</span>(...)
 								</article>
 							</div>
 						</a>
@@ -315,15 +316,16 @@
 						</a>
 						<a href="#00">
 							<div class="post__column">
-								<h3 class="title post__title">
-									SUMMER ADVENTURES...
+								<h3 class="title title_large post__title">
+									SUMMER ADVENTURES
 									<p class="post__date">POSTED: DEC 14 2013</p>
 									<div class="post__underline"></div>
 								</h3>
 								<article class="article post__article">
-									The dance of life, the hunter and the agile prey.
-									No guarantee which of them will 
-									<span class="post__preview_hidden">succeed, strong or weak.</span>(...)
+									And they run when the sun comes up,
+									With their lives on the line
+									ALIVE! For a while,
+									<span class="post__preview_hidden">NO CHOICE! Gotta follow the laws of life!.</span>(...)
 								</article>
 							</div>
 						</a>
@@ -334,15 +336,15 @@
 						</a>
 						<a href="#00">
 							<div class="post__column">
-								<h3 class="title post__title">
-									SUMMER ADVENTURES...
+								<h3 class="title title_large post__title">
+									SUMMER ADVENTURES
 									<p class="post__date">POSTED: DEC 14 2013</p>
 									<div class="post__underline"></div>
 								</h3>
 								<article class="article post__article">
-									The dance of life, the hunter and the agile prey.
-									No guarantee which of them will 
-									<span class="post__preview_hidden">succeed, strong or weak.</span>(...)
+									RULES OF NATURE
+									ALIVE! With their lives on the line
+									<span class="post__preview_hidden">NO CHOICE! Out here only the strong survive!</span>(...)
 								</article>
 							</div>
 						</a>
@@ -353,8 +355,8 @@
 						</a>
 						<a href="#00">
 							<div class="post__column">
-								<h3 class="title post__title">
-									SUMMER ADVENTURES...
+								<h3 class="title title_large post__title">
+									SUMMER ADVENTURES
 									<p class="post__date">POSTED: DEC 14 2013</p>
 									<div class="post__underline"></div>
 								</h3>
@@ -368,9 +370,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="contacts" class="section contacts">
-			<h2 class="section__title title_border-top">
+		</section>
+		<section id="contacts" class="section contacts">
+			<h2 class="title title_huge section__title title_border-top">
 				CONTACT US
 			</h2>
 			<div class="contacts__inner">
@@ -395,13 +397,13 @@
 						<button class="contacts__button">SEND MESSAGE NOW</button>
 					</form>
 				</div>
-				<footer class=" footer bottom-panel">
+				<div class="add-info">
 					<span class="copyright">© 2014 | Original Grafixity Theme </span>
 					<span class="dash">|</span>
 					<a href="#0" class="source">Powered by WordPress</a>
-				</footer>
+				</div>
 			</div>
-		</div>
+		</section>
 	</div>
 	<script src="js/script.js"></script>
 </body>

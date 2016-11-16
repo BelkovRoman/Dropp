@@ -49,7 +49,6 @@
 }
 
 .post__title{
-	font-size: 2.5rem;
 	font-family: 'Oswald-Bold';
 }
 
@@ -67,7 +66,7 @@
 
 .post__article{
 	margin-top: 2rem;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 }
 
 @media screen and (max-width: 1170px) and (min-width: @max-width-normal){
@@ -98,12 +97,22 @@
 	
 	.post{
 		width: 100%;
-		margin-bottom: 3%;
+		margin-bottom: 8%;
 		margin-right: 0;
 		
 		&:last-child{
 			margin-bottom: 0;
 		}
+	}
+	
+	.post__column{
+		width: 95%;
+	}
+
+	.post__link{
+		width: 95%;
+		margin-right: 0;
+		margin-bottom: 1rem;
 	}
 	
 	.post__preview_hidden{
@@ -114,8 +123,12 @@
 		margin-top: 1rem;
 	}
 	
+	.post__title{
+		text-align: center;
+	}
+	
 	.post__underline{
-		margin-top: 1rem;
+		margin: 1rem auto 0 auto;
 	}
 }
 
@@ -136,12 +149,22 @@
 	.post{
 		display: inline-block;
 		width: 100%;
-		margin-bottom: 3%;
+		margin-bottom: 8%;
 		margin-right: 0;
 		
 		&:last-child{
 			margin-bottom: 0;
 		}
+	}
+	
+	.post__column{
+		width: 95%;
+	}
+
+	.post__link{
+		width: 95%;    
+		margin-right: 0;
+		margin-bottom: 1rem;
 	}
 	
 	.post__preview{
@@ -152,7 +175,11 @@
 		margin-top: 0.5rem;
 	}
 	
+	.post__title{
+		text-align: center;
+	}
+	
 	.post__underline{
-		margin-top: 0.5rem;
+		margin: 1rem auto 0 auto;
 	}
 }
