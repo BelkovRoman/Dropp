@@ -3,7 +3,7 @@
 ##Описание
 Главная страница "Dropp"
 
-#Демонстрация макета
+##Демонстрация макета
 https://belkovroman.github.io/works/DrOpp/index.html
 
 #Файловая структура каталога dev
