@@ -1,23 +1,29 @@
-# Верстка страницы интернет магазина "Сигма"
+# Верстка страницы "Dropp"
 
 ##Описание
-Страница "Торговое оборудование для автоматизации" на сайте "Сигма".
+Главная страница "Dropp"
 
 #Файловая структура каталога dev
 * **css**
 	- **components** каталог с компонентами страницы:
 		+ hamburger.less
 		+ preloader.less
-		+ top-panel.less
+		+ avatars.less
+		+ skills.less
+		+ social.less
 	- **helpers** каталог c вспомогательными элементами:
 		+ clearfix.less
-	- **sections** каталог с элементами каркаса страницы:
+		+ stylesheet.txt
+	- **helpers** каталог c элементами каркаса страницы:
+		+ grid.less
+		+ header.less
+	- **sections** каталог с секциями страницы:
 		+ about.less
 		+ blog.less
 		+ contacts.less
-		+ header.less
+		+ home.less
 		+ portfolio.less
-		+ services
+		+ services.less
 	- **settings.less**
 	- **style.less** основной less-файл.
 	- **style.css** скомпилированный css-файл.
